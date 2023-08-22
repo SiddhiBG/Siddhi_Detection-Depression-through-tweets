@@ -10,6 +10,10 @@ Since there is no public dataset exists regardingthe depressive tweets, the esse
 We also need the pretrained vectors for word2Vec model which provide by the google by using the following link: https://drive.google.com/uc?id=0B7XkCwpI5KDYNlNUTTlSS21pQmM&export=download
 
 In this project I used the LSTM+CNN, the model takes in an input and then outputs a single number representing the probability that the tweet indicates depression. The model takes in each input sentence, replace it with it's embeddings, then run the new embedding vector through a convolutional layer. CNNs are excellent at learning spatial structure from data, the convolutional layer takes advantage of that and learn some structure from the sequential data then pass into a standard LSTM layer. Last but not least, the output of the LSTM layer is fed into a standard Dense model for prediction.
+
+
+
 ![52536100-5a7ba200-2d56-11e9-8f4c-d6d14c96b9ac](https://github.com/SiddhiBG/Siddhi_Detection-Depression-through-tweets/assets/86585405/fafabde3-acaa-4d17-bdb5-f9075e9cfa25)
+
 ![52536102-5a7ba200-2d56-11e9-96e9-b00107c1c633](https://github.com/SiddhiBG/Siddhi_Detection-Depression-through-tweets/assets/86585405/fa2347d8-860f-4b4c-9aea-e9597c855c46)
 
